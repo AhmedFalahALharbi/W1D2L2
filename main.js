@@ -53,7 +53,7 @@ function sub(num1 , num2) {
     return num1 - num2
 }
 function reminder(num1 , num2) {
-    return num1 - num2
+    return num1 % num2
 }
 console.log("Multi:",multi(3,4));
 console.log("divison:",divison(3,4));
