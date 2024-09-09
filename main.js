@@ -39,6 +39,26 @@ console.log("Names include a" , names.filter(name => name.includes("a")));
 // Q2
 console.log( names.join("-"));
 
+// Lab function
+function multi(num1 , num2) {
+    return num1 * num2
+}
+function divison(num1 , num2) {
+    return num1 / num2
+}
+function add(num1 , num2) {
+    return num1 + num2
+}
+function sub(num1 , num2) {
+    return num1 - num2
+}
+console.log("Multi:",multi(3,4));
+console.log("divison:",divison(3,4));
+console.log("add:",add(3,4));
+console.log("sub:",sub(3,4));
+
+
+
 
 
 
